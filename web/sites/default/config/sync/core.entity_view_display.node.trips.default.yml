@@ -1,0 +1,43 @@
+uuid: b00e13d5-8cd5-453b-833f-e41a0951911e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.trips.body
+    - field.field.node.trips.field_d_trip
+    - field.field.node.trips.field_trip_image
+    - node.type.trips
+  module:
+    - image
+    - text
+    - user
+id: node.trips.default
+targetEntityType: node
+bundle: trips
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_d_trip:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_trip_image:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+hidden:
+  langcode: true

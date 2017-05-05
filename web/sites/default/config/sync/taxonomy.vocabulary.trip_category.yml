@@ -1,0 +1,9 @@
+uuid: fe26b7ce-d75c-40bf-833b-7c572fa2499b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Trip Category'
+vid: trip_category
+description: jahjdhajkshdjhdjksa
+hierarchy: 0
+weight: 0

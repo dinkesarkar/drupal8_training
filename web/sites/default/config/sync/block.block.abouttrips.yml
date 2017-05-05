@@ -1,0 +1,25 @@
+uuid: 1932197f-8c13-4ef2-b265-441ebb453dd4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8b657943-374c-4ecf-87c3-c2b453fd0bb9'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: abouttrips
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:8b657943-374c-4ecf-87c3-c2b453fd0bb9'
+settings:
+  id: 'block_content:8b657943-374c-4ecf-87c3-c2b453fd0bb9'
+  label: 'About Trips'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

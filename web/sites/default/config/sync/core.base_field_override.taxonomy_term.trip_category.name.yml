@@ -1,0 +1,18 @@
+uuid: f7f0be7b-c87d-4dff-8ae3-42bd85f9b5ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.trip_category
+id: taxonomy_term.trip_category.name
+field_name: name
+entity_type: taxonomy_term
+bundle: trip_category
+label: Name
+description: 'The term name.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,4 @@
+name: 'D8 Module'
+Description: 'This is new custom module'
+core: 8.x
+type: module

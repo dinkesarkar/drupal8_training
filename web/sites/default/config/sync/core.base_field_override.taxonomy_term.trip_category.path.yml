@@ -1,0 +1,20 @@
+uuid: 57cb0b2e-f490-4940-99bd-40cece240abf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.trip_category
+  module:
+    - path
+id: taxonomy_term.trip_category.path
+field_name: path
+entity_type: taxonomy_term
+bundle: trip_category
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

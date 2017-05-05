@@ -1,0 +1,22 @@
+uuid: 0156d160-98d6-48b9-bfe5-009f19fae1d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.trips
+  module:
+    - text
+id: node.trips.body
+field_name: body
+entity_type: node
+bundle: trips
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

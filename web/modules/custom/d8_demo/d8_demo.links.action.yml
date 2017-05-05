@@ -1,0 +1,5 @@
+d8_demo.action1:
+  title: 'First Action'
+  route_name: node.add_page
+  appears_on: 
+    - 'd8_demo.node'
